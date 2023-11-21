@@ -58,7 +58,7 @@
     <Analyzer Include="D:\Unity 22.3.7\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Camera Move.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
