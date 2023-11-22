@@ -353,6 +353,7 @@
 -analyzer:"D:/Unity 22.3.7/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity 22.3.7/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Camera Move.cs"
+"Assets/Scripts/Grid.cs"
 "Assets/Scripts/TotalWar Camera.cs"
 -langversion:9.0
 
