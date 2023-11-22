@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour
 {
-    float speed = 0.06f;
-    float zoomSpeed = 10.0f;
-    float rotateSpeed = 0.1f;
+    float speed = 1.5f;
+    float zoomSpeed = 50.0f;
+    float rotateSpeed = 10.0f;
 
     float maxHeight = 40.0f;
     float minHeight = 4.0f;
@@ -17,7 +17,8 @@ public class CameraMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector3(320.0f, 25.0f, 320.0f);
+        transform.rotation = Quaternion.Euler(new Vector3(42.0f, -135.0f, 0));
     }
 
     // Update is called once per frame
@@ -54,7 +55,7 @@ public class CameraMove : MonoBehaviour
         Vector3 move = verticalMove + lateralMove + forwardMove;
 
         // 카메라 움직이기
-        transform.position += move;
+        transform.position += move * Time.deltaTime;
 
         GetCameraRotation();
     }
@@ -85,12 +86,12 @@ public class CameraMove : MonoBehaviour
 
     void GetCameraRotation()
     {
-        if( Input.GetMouseButtonDown(2))
+        if( Input.GetMouseButtonDown(1))
         {
             p1 = Input.mousePosition;
         }
 
-        if (Input.GetMouseButton(2))
+        if (Input.GetMouseButton(1))
         {
             p2 = Input.mousePosition;
 
