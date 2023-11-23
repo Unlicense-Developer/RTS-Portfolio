@@ -327,6 +327,10 @@
 -r:"D:/Unity 22.3.7/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -355,6 +359,11 @@
 "Assets/Scripts/Camera Move.cs"
 "Assets/Scripts/Grid.cs"
 "Assets/Scripts/TotalWar Camera.cs"
+"Assets/Scripts/Unit Click.cs"
+"Assets/Scripts/Unit Drag.cs"
+"Assets/Scripts/Unit Movement.cs"
+"Assets/Scripts/Unit Selections.cs"
+"Assets/Scripts/Unit.cs"
 -langversion:9.0
 
 /deterministic

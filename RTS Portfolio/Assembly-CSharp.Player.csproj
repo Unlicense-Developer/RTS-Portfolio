@@ -59,8 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Grid.cs" />
+    <Compile Include="Assets\Scripts\Unit Movement.cs" />
+    <Compile Include="Assets\Scripts\Unit Click.cs" />
+    <Compile Include="Assets\Scripts\Unit Drag.cs" />
     <Compile Include="Assets\Scripts\Camera Move.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
     <Compile Include="Assets\Scripts\TotalWar Camera.cs" />
+    <Compile Include="Assets\Scripts\Unit Selections.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -642,6 +647,10 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{5E3350BD-8E07-F7FC-6FCE-5B07D5B452E4}</Project>
       <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
+      <Project>{262FD38E-4AE5-3E79-CB8F-8B9B81360FAB}</Project>
+      <Name>Unity.AI.Navigation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{D427E24F-59AD-572A-2F68-32BBA0A79A0D}</Project>
