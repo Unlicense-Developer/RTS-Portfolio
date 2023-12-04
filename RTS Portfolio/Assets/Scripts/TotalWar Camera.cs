@@ -16,7 +16,7 @@ public class TotalWarCamera : MonoBehaviour
 	void Start()
 	{
 		transform.position = new Vector3(320.0f, 25.0f, 320.0f);
-		transform.rotation = Quaternion.Euler(new Vector3(42.0f, -135.0f, 0));
+		transform.rotation = Quaternion.Euler(new Vector3(45.0f, -135.0f, 0));
 	}
 
 	// Update is called once per frame
@@ -57,6 +57,7 @@ public class TotalWarCamera : MonoBehaviour
 
 	void RotateCamera()
     {
+
 		if (Input.GetKey(KeyCode.Q))
 		{
 			transform.Rotate(new Vector3(0, -rotatespeed, 0) * Time.deltaTime);

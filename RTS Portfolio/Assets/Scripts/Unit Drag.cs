@@ -25,12 +25,14 @@ public class UnitDrag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //눌렀을때
         if( Input.GetMouseButtonDown(0))
         {
             startPos = Input.mousePosition;
             selectionBox = new Rect();
         }
 
+        //누르고 있을때 계속 호출
         if( Input.GetMouseButton(0))
         {
             endPos = Input.mousePosition;
@@ -38,6 +40,7 @@ public class UnitDrag : MonoBehaviour
             DrawSelection();
         }
 
+        //클릭버튼에서 손 뗏을때
         if( Input.GetMouseButtonUp(0))
         {
             SelectUnits();
@@ -62,6 +65,8 @@ public class UnitDrag : MonoBehaviour
 
     void DrawSelection()
     {
+        //박스의 x,y min, max 판별
+
         if( Input.mousePosition.x < startPos.x)
         {
             selectionBox.xMin = Input.mousePosition.x;
